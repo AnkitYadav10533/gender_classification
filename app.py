@@ -17,7 +17,7 @@ st.set_page_config(
 # Load Model
 # -------------------------
 # Load model from the relative path
-model = joblib.load("gender_model.pkl")
+model = joblib.load("male_female_model.pkl")
 
 IMG_SIZE = 64
 
